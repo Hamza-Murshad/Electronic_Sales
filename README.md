@@ -17,7 +17,34 @@ Also evaluating loyalty program effectiveness and upsell. Providing clear visual
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+
+### 1. **Using Matplotlib** 
+
+- **Hypothesis:** Loyalty Members spend more per transaction than non-loyalty members.
+    - **Validation:** Bar chart of average spending by loyalty status.
+- **Hypothesis:** Certain product categories have higher revenues than others.
+   - **Validation:** Bar chart of average spending per product category.
+- **Hypothesis:** Sales peak in specific months.
+   - **Validation:** Line chart showing monthly total revenue.
+
+### 2. **Using Seaborn**
+
+- **Hypothesis:** Male and Female customers differ in spending distribution.
+    - **Validation:** Boxplot of spending by gender.
+- **Hypothesis:** Add-on purchases are more common for higher-priced products.
+   - **Validation:** Violin plot of product price by add-on purchase (Yes or No).
+- **Hypothesis:** Younger customers tend to spend less than older customers. 
+   - **Validation:** Swarm plot of spend by age group
+
+### 3. **Using Plotly**
+
+- **Hypothesis:** Loyalty members buy more add-ons than non-loyalty members.
+    - **Validation:** Stacked bar chart of add-on purchases by loyalty status.
+- **Hypothesis:** Certain payment methods are associated with higher average transaction value.
+   - **Validation:** Bar chart of average spend per payment method.
+- **Hypothesis:** High-rated products are associated with higher sales.
+   - **Validation:** Scatter plot of product rating vs. total spend, with trendline. 
+ 
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
