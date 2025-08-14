@@ -25,7 +25,7 @@ Also evaluating loyalty program effectiveness and upsell. Providing clear visual
 - **Hypothesis:** Certain product categories have higher revenues than others.
    - **Validation:** Bar chart of average spending per product category.
 - **Hypothesis:** Sales peak in specific months.
-   - **Validation:** Line chart showing monthly total revenue.
+   - **Validation:** Histogram showing monthly total revenue.
 
 ### 2. **Using Seaborn**
 
@@ -48,22 +48,70 @@ Also evaluating loyalty program effectiveness and upsell. Providing clear visual
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
+   - Loaded and explored a custom dataset.
+   - Cleaned the data by handling missing values ad standardizing categories.
+   - Removed rows that should not be part of the dataset (cancelled orders).
+   - Sorted and grouped data to reveal trends.
+   - Visualised ket metrics using bar charts, boxplots, violin plots, swarm plots etc.
+   - Tested hypotheses and answered them using visualisation to validate my answer.
+   - Summarised insights and suggested business actions based on findings.
+
+* How was the data managed throughout the collection?
+   - The dataset was sourced from Kaggle and downloaded as a CSV file.
+   - Data integrity was maintained
+
+* How was the data managed throughout the processing?
+   - Raw data was loaded into Pandas dataframes for efficient manipulation.
+   - Missing values were identified and filled with appropiate replacements.
+   - Unnecessary rows were removed to ensure data quality.
+   - New column was added to support deeper analysis.
+   - Cleaned and processed data was saved to a new CSV file for further analysis with visualisations.
+
+* How was the data managed throughout analysis?
+   - The cleaned dataset was explored using descriptive statistics and visualisations to discover patterns and trends.
+   - Data was grouped and sorted to compared key metrics across different categories.
+   - Hypotheses were tested using the dataset was analysed.
+   - Insights were documeneded and visualisations were used to support business recommendations
+   - All steps were reproducible, with code in Jupyter Notebooks
+
+* How was the data managed throughout interpretation?
+   - Key findings from the analysis were summarised and interpreted in the context of business objectives
+   - Insights were communicated clearly, highlighting trends, correlations and areas for improvement
+   - All interpretations were documented
+ 
 * Why did you choose the research methodologies you used?
+   - Methodologies such as explortory data analysis, feature engineering, and hypothesis testing are considerd standard practices for uncovering insights in data analysis.
+   - Visualisation libraries such as Matplotlib, Seaborn, and Plotly were chosen because of their ability to clearly communicate trends and patterns to stakeholders in a simple way.
+
 
 ## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
+* List your business requirements and a rationale to map them to the Data Visualisations:
+
+   - **Business requirement 1:** Optimise electronic retail performance through data-driven insights
+
+      - **Rationale & Visualisation:** Used summary bar charts and histograms to identify overall sale trends, peak periods, and top performing products.
+
+
+   - **Business requirement 2:** Understand how customer demographics, product categories, and sale trends impact revenue:
+
+      - **Rationale & Visualisation:** Used grouped bar charts, boxplots and swarm plots to compare spending across age groups, genders and product categories.
+
+   
+   - **Business requirement 3:** Evaluate loyalty program effectiveness:
+      
+      - **Rationale & Visualisation:** Used stacked bar charts and violin plots to compare add-on purchases and average spending between loyalty members and non-members.
+
+
+   - **Business requirement 4:** Provide clear visualisation to support strategic business decisions:
+
+      - **Rationale & Visualisation:** Used interactive plotly charts and well-labeled Seaborn/Matplotlib plots to communicate findings making it easy to interpret for non technical audiences.
+
 
 ## Analysis techniques used
 * List the data analysis methods used and explain limitations or alternative approaches.
 * How did you structure the data analysis techniques. Justify your response.
 * Did the data limit you, and did you use an alternative approach to meet these challenges?
 * How did you use generative AI tools to help with ideation, design thinking and code optimisation?
-
-## Unfixed Bugs
-* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
 
 ## Development Roadmap
 * What challenges did you face, and what strategies were used to overcome these challenges?
