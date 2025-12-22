@@ -141,7 +141,6 @@ Also evaluating loyalty program effectiveness and upsell. Providing clear visual
 
 
 ## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
 
    - **pandas:** Used for loading data, cleaning and manipulation.
       - Example: df = pd.read_csv('dataset/cleaned/Electronic_sales_cleaned.csv')
@@ -167,7 +166,6 @@ Also evaluating loyalty program effectiveness and upsell. Providing clear visual
 - LMS
 - Copilot
 
-## Acknowledgements (optional)
-* Thank the people who provided support through this project.
+## Acknowledgements 
 - Thank you Vasi for steering me in the right direction of how to complete this project
 - Thank Roman, Mark and Neil for the valuable masterclasses.
